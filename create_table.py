@@ -78,9 +78,9 @@ for table in tables:
 
 
 # Create roles
-roles = ["Admin", "Manager", "karmachari"]
+"""roles = ["Admin", "Manager", "karmachari"]
 for role in roles:
-    cur.execute(f"CREATE ROLE {role} NOINHERIT;")
+    cur.execute(f"CREATE ROLE {role} NOINHERIT;")"""
 
 # Grant privileges to Admin role
 admin_privileges = [

@@ -145,7 +145,7 @@ def update_bug_report():
 def delete_employee():
     empCode = int(input("Enter Employee Code to Delete: "))
 
-    query = "DELETE FROM karmachari WHERE empCode = %s"
+    query = "DELETE FROM karmachari WHERE empCode =%s"
     data = (empCode,)
 
     return query, data
